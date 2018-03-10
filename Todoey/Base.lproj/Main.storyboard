@@ -32,11 +32,17 @@
                             <outlet property="delegate" destination="WnW-wo-QF4" id="YEp-Pa-uxh"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Todoey" id="reh-XB-FKI"/>
+                    <navigationItem key="navigationItem" title="Todoey" id="reh-XB-FKI">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="MdD-TZ-j93">
+                            <connections>
+                                <action selector="barButtonPressed:" destination="WnW-wo-QF4" id="pbx-wA-hrE"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mTB-4w-10X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="333.5" y="162.5"/>
+            <point key="canvasLocation" x="-1" y="177"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="6YY-f5-Cw1">
@@ -55,7 +61,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q44-AI-9Si" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-198" y="163"/>
+            <point key="canvasLocation" x="-727" y="177"/>
         </scene>
     </scenes>
 </document>
